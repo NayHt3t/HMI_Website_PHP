@@ -24,13 +24,13 @@
             </div>
           </li>
           <li>
-            <div href="#!" class="footer-link mb-3">
-              <a href="#!" class="ms-2">Student Life</a>
+            <div href="../student-life.php" class="footer-link mb-3">
+              <a href="../student-life.php" class="ms-2">Student Life</a>
             </div>
           </li>
           <li>
-            <div href="#!" class="footer-link mb-3">
-              <a href="#!" class="ms-2">Career Opportunity</a>
+            <div href="../career-opportunity.php" class="footer-link mb-3">
+              <a href="../career-opportunity.php" class="ms-2">Career Opportunity</a>
             </div>
           </li>
         </ul>
@@ -88,10 +88,12 @@
 
 </footer>
 
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
-  <script src="js/script-custom.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+<script src="../js/script-custom.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
