@@ -2,9 +2,9 @@
   <div class="container py-4 padding-format">
     <div class="row border-bottom border-2">
       <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-        <div class="">
+        <a class="" href="../index.php">
           <img src="images/HMI_logo.png" alt="HOST Myanmar Institute Logo" style="width:60%;">
-        </div>
+        </a>
         <p class="footer-text-italic">
           HMI aims to produce skillful IT technicians who have skills and knowledge to find a professional pathway.
         </p>

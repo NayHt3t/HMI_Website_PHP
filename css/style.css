@@ -28,8 +28,8 @@ body {
 }
 
 .padding-format {
-  padding-left: 50px !important;
-  padding-right: 50px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
 }
 
 .bg-hmi {
@@ -96,6 +96,7 @@ body {
   border-radius: 5px;
   margin-bottom: 3px;
   border-bottom: 1.5px solid;
+  font-weight: 700;
 }
 
 /* intro section */
@@ -392,13 +393,31 @@ button .testimonial-frame img {
 
 .banner-text {
   position: absolute;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 46px;
   bottom: -20px;
+  margin: 0 !important;
   padding: 5px;
   background-color: white;
 }
 
+.banner-text .container {
+  margin: 0 !important;
+  padding: 5px 0px 5px 0px !important;
+}
+
+.banner-text .logo-bullet {
+  width: 32px;
+  height: 30px;
+}
+
 .banner-text .title-text {
   font-size: 20px;
+  font-weight: 600;
 }
 
 .banner .container {
@@ -421,13 +440,13 @@ button .testimonial-frame img {
 .banner-vector1 {
   position: absolute;
   bottom: -25px;
-  left: 36.15%;
+  left: 35.75%;
 }
 
 .banner-vector2 {
   position: absolute;
   bottom: -25px;
-  right: 36.15%;
+  right: 35.75%;
 }
 
 .content {
@@ -502,6 +521,7 @@ button .testimonial-frame img {
   color: #21A7E0;
   text-decoration: underline;
   font-size: 18px;
+  font-weight: 600;
   margin-bottom: 2rem;
 }
 
@@ -535,6 +555,7 @@ button .testimonial-frame img {
   color: #21A7E0;
   border-radius: 5px;
   border-bottom: 1.5px solid;
+  font-weight: 700;
 }
 
 .col-md-1 i.icon {

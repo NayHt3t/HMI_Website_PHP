@@ -39,7 +39,7 @@
 <nav class="navbar second-navbar navbar-expand-lg navbar-light sticky-top padding-format">
   <div class="container-fluid">
     <div class="naver-brand col-lg-3 col-md-3 col-sm-3">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../index.php">
         <img src="images/HMI_logo.png" alt="Host Myanmnar Institute Logo" style="width: 100%;height: 4.5rem;">
       </a>
     </div>

@@ -20,7 +20,7 @@ function renderBanner($bgImage, $title)
         <div class='banner-text text-center text-primary'>
             <div class='container'>
                 <div class='row'>
-                    <div class='col-md-12  d-flex align-items-center'>
+                    <div class='col-md-12 d-flex justify-content-center align-items-center'>
                        " . renderTitle($title) . "
                     </div>
                 </div>

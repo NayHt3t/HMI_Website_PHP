@@ -11,7 +11,7 @@ include 'layouts/header.php'
 <Section class="section banner-section">
 
     <?php 
-        $bgImage = "images/banner-image.jpg";
+        $bgImage = "images/banners/academic-banner.jpg";
         $title = "Academic Programs";
         echo renderBanner($bgImage, $title);
     ?>
@@ -30,7 +30,7 @@ include 'layouts/header.php'
         ";
         echo renderContent($content1, $content2);
     ?>
-    
+
 </Section>
 <!-- Banner Section End -->
 
