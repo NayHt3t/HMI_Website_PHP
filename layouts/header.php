@@ -39,7 +39,7 @@
 <nav class="navbar second-navbar navbar-expand-lg navbar-light sticky-top padding-format">
   <div class="container-fluid">
     <div class="naver-brand col-lg-3 col-md-3 col-sm-3">
-      <a class="navbar-brand" href="../index.php">
+      <a class="navbar-brand" href="index.php">
         <img src="images/HMI_logo.png" alt="Host Myanmnar Institute Logo" style="width: 100%;height: 4.5rem;">
       </a>
     </div>
@@ -50,16 +50,16 @@
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link custom-nav-link" href="../index.php">Home</a>
+          <a class="nav-link custom-nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link custom-nav-link" href="../academic-programs.php">Academic Program</a>
+          <a class="nav-link custom-nav-link" href="academic-programs.php">Academic Program</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link custom-nav-link" href="../student-life.php">Student Life</a>
+          <a class="nav-link custom-nav-link" href="student-life.php">Student Life</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link custom-nav-link" href="../career-opportunity.php">Carrer Opprtunity</a>
+          <a class="nav-link custom-nav-link" href="career-opportunity.php">Carrer Opprtunity</a>
         </li>
         <li class="nav-item me-0">
           <a class="btn btn-danger" href="#">Apply Now</a>

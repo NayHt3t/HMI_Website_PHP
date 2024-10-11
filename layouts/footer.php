@@ -2,7 +2,7 @@
   <div class="container py-4 padding-format">
     <div class="row border-bottom border-2">
       <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-        <a class="" href="../index.php">
+        <a class="" href="index.php">
           <img src="images/HMI_logo.png" alt="HOST Myanmar Institute Logo" style="width:60%;">
         </a>
         <p class="footer-text-italic">
@@ -14,23 +14,23 @@
         <h5 class="text-uppercase footer-text-title">Quick Links</h5>
         <ul class="list-unstyled mb-0">
           <li>
-            <div href="../index.php" class="footer-link mb-3">
-              <a href="../index.php" class="ms-2">Home</a>
+            <div href="index.php" class="footer-link mb-3">
+              <a href="index.php" class="ms-2">Home</a>
             </div>
           </li>
           <li>
-            <div href="../academic-programs.php" class="footer-link mb-3">
-              <a href="../academic-programs.php" class="ms-2">Academic Program</a>
+            <div href="academic-programs.php" class="footer-link mb-3">
+              <a href="academic-programs.php" class="ms-2">Academic Program</a>
             </div>
           </li>
           <li>
-            <div href="../student-life.php" class="footer-link mb-3">
-              <a href="../student-life.php" class="ms-2">Student Life</a>
+            <div href="student-life.php" class="footer-link mb-3">
+              <a href="student-life.php" class="ms-2">Student Life</a>
             </div>
           </li>
           <li>
-            <div href="../career-opportunity.php" class="footer-link mb-3">
-              <a href="../career-opportunity.php" class="ms-2">Career Opportunity</a>
+            <div href="career-opportunity.php" class="footer-link mb-3">
+              <a href="career-opportunity.php" class="ms-2">Career Opportunity</a>
             </div>
           </li>
         </ul>

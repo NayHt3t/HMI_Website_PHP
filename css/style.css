@@ -516,6 +516,11 @@ button .testimonial-frame img {
   background-color: #F0F7FF;
 }
 
+/* Academic Fee */
+.academic-fee .first-column {
+  border-right: 1px #21A7E0 dashed;
+}
+
 /* footer section */
 .footer-text-title {
   color: #21A7E0;

@@ -334,11 +334,53 @@ include 'layouts/header.php'
                     </div>
                     <!-- Academic Calender Content End -->
 
+                    <!-- Academic Fee Content Start -->
                     <div class="tab-pane fade" id="academic-fee" role="tabpanel" aria-labelledby="academic-fee-tab">
-                        academic-fee content.</div>
+                        <div class="container p-5">
+                            <div class="academic-fee row">
+                                <div class="first-column col-lg-6 col-sm-12">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p>Registration Fee</p>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <p>500,000 MMK</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p>Year 1</p>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <p>3,500,000 MMK</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p>Year 2</p>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <p>3,000,000 MMK</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="second-column ps-3 col-lg-6 col-sm-12">
+                                    <div class="row">
+                                        <p>3 Times Installment / Year</p>
+                                    </div>
+                                    <div class="row">
+                                        <p>The program fee covers tuiton, registration and text books fees but does not cover ITPEC exam fees.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Academic Fee Content Emd -->                    
 
+                    <!-- Study Plan Content Start -->
                     <div class="tab-pane fade" id="study-plan" role="tabpanel" aria-labelledby="study-plan-tab">
                         study-plan content.</div>
+                    <!-- Study Plan Content Start -->
                 </div>
             </div>
         </div>
