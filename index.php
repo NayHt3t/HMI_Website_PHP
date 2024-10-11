@@ -2,7 +2,7 @@
   $pageTitle = 'Home';
   include 'layouts/header.php' 
 ?>
-<?php include 'components/title-format.php' ?>
+<?php include 'components/components.php' ?>
 
 
 <!-- Header Start -->
@@ -59,7 +59,7 @@
     <div class='row d-flex justify-content-center align-items-center'>
       <div class='col-md-4 d-flex justify-content-center align-items-center my-4'>
       
-        <?php renderTitle("Our Courses") ?>
+        <?php echo renderTitle("Our Courses") ?>
       
       </div>
     </div>
@@ -114,7 +114,7 @@
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-md-12 d-flex justify-content-center align-items-center my-4">
 
-            <?php renderTitle("Career Opportunities") ?>
+            <?php echo renderTitle("Career Opportunities") ?>
             
           </div>
         </div>
@@ -236,7 +236,7 @@
       <div class="col-lg-12">
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-md-12 d-flex justify-content-center align-items-center my-4">
-          <?php renderTitle("Our Activities") ?>
+          <?php echo renderTitle("Our Activities") ?>
           </div>
         </div>
       </div>
@@ -282,8 +282,8 @@
             <div class="col-md-12">
               <div class="row d-flex align-items-center">
                 <div class="col-md-12 d-flex align-items-center my-4">
-        
-                  <?php renderTitle("Our Students Diversity") ?>
+         
+                  <?php echo renderTitle("Our Students Diversity") ?>
                 </div>
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quis cupiditate voluptas quasi
@@ -311,7 +311,7 @@
       <div class="col-lg-12">
         <div class="row d-flex align-items-center">
           <div class="col-md-12 d-flex justify-content-center align-items-center my-4">
-          <?php renderTitle("Our Studentss Testimonials") ?>
+          <?php echo renderTitle("Our Studentss Testimonials") ?>
           </div>
         </div>
       </div>

@@ -2,55 +2,44 @@
 $pageTitle = 'Academic Programs';
 include 'layouts/header.php'
 ?>
-<?php include 'components/title-format.php' ?>
+<?php include 'components/components.php' ?>
 
 <!-- Header -->
 <div id="header"></div>
 
 <!-- Banner Section Start -->
 <Section class="section banner-section">
-    <div class="banner d-flex justify-content-center">
-        <div class="banner-vector1">
-            <img src="images/vectorElements/academicVector1.png" alt="">
-        </div>
-        <div class="banner-text text-center text-primary">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12  d-flex align-items-center">
-                        <?php renderTitle("Academic Programs") ?>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="banner-vector2">
-            <img src="images/vectorElements/academicVector2.png" alt="">
-        </div>
-    </div>
 
-    <div class="content container py-5 padding-format">
-        <div class="row padding-format">
-            <div class="col-md-6">
-                <p class="">In Host Myanmar Institute, we provide different programs relating to computer science.
+    <?php 
+        $bgImage = "images/banner-image.jpg";
+        $title = "Academic Programs";
+        echo renderBanner($bgImage, $title);
+    ?>
+
+    <?php 
+        $content1 = "
+            In Host Myanmar Institute, we provide different programs relating to computer science.
                     Lorem
                     ipsum dolor sit amet consectetur. Ornare neque euismod nisi interdum. Lobortis mauris dolor
-                    vitae turpis adipiscing. Tortor enim a nec parturient lorem maecenas ullamcorper massa.</p>
-            </div>
-            <div class="col-md-6">
-                <p>Placerat ridiculus massa curabitur felis malesuada egestas enim platea. Cum volutpat mattis
+                    vitae turpis adipiscing. Tortor enim a nec parturient lorem maecenas ullamcorper massa.
+        ";
+        $content2 = "
+            Placerat ridiculus massa curabitur felis malesuada egestas enim platea. Cum volutpat mattis
                     semper integer sed lorem scelerisque mauris posuere. Facilisi euismod vulputate id curabitur
-                    etiam nullam nulla. Posuere lacus tempus enim mauris auctor.</p>
-            </div>
-        </div>
-    </div>
+                    etiam nullam nulla. Posuere lacus tempus enim mauris auctor.
+        ";
+        echo renderContent($content1, $content2);
+    ?>
+    
 </Section>
 <!-- Banner Section End -->
 
 <!-- Program Intro Section Start -->
 <section class="section bg-white program-intro">
-    <div class="container py-5 padding-format">
+    <div class="container py-5 position-relative padding-format">
         <div class="row d-flex align-items-center" data-aos="fade-down">
             <div class="col-md-12 d-flex justify-content-center align-items-center">
-                <?php renderTitle("2-year Software Engineer Certificate Program") ?>
+                <?php echo renderTitle("2-year Software Engineer Certificate Program") ?>
             </div>
         </div>
         <div class="row p-3" data-aos="fade-right">
@@ -66,7 +55,7 @@ include 'layouts/header.php'
                     class="rounded">
             </div>
         </div>
-        <div class="row p-3 mt-3" data-aos="fade-left">
+        <div class="row px-3 pt-3 pb-4 mt-3" data-aos="fade-left">
             <div class="col-md-7">
                 <img src="images/activities/image8.jpg" alt="activity-1" style="width: 100%; height: 20rem;"
                     class="rounded">
@@ -80,6 +69,7 @@ include 'layouts/header.php'
                     များတွင် Software Engineer အဖြစ် ဝင်ရောက်လုပ်ကိုင်နိုင်မည့် အခွင့်အရေး ရရှိမည်ဖြစ်ပါသည်။ </p>
             </div>
         </div>
+        <?php echo renderSecionBreak(); ?>
     </div>
 </section>
 <!-- Program Intro Section End -->
@@ -134,7 +124,7 @@ include 'layouts/header.php'
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-12 d-flex justify-content-center align-items-center">
-                                                    <?php renderTitle("Year 1") ?>
+                                                    <?php echo renderTitle("Year 1") ?>
                                                 </div>
                                             </div>
                                             <div class="row mt-3">
@@ -185,7 +175,7 @@ include 'layouts/header.php'
                                         <div class="container mt-4">
                                             <div class="row">
                                                 <div class="col-md-12 d-flex justify-content-center align-items-center">
-                                                    <?php renderTitle("Year 2") ?>
+                                                    <?php echo renderTitle("Year 2") ?>
                                                 </div>
                                             </div>
                                             <div class="row mt-3">
@@ -238,7 +228,7 @@ include 'layouts/header.php'
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-12 d-flex justify-content-center align-items-center">
-                                                    <?php renderTitle("Year 1") ?>
+                                                    <?php echo renderTitle("Year 1") ?>
                                                 </div>
                                             </div>
                                             <div class="row mt-3">
@@ -289,7 +279,7 @@ include 'layouts/header.php'
                                         <div class="container mt-4">
                                             <div class="row">
                                                 <div class="col-md-12 d-flex justify-content-center align-items-center">
-                                                    <?php renderTitle("Year 2") ?>
+                                                    <?php echo renderTitle("Year 2") ?>
                                                 </div>
                                             </div>
                                             <div class="row mt-3">
