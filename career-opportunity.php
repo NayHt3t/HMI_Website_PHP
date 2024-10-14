@@ -30,5 +30,36 @@ After 3 months of On Job Training, HMI arranges for the students to have a cha
 </Section>
 <!-- Banner Section End -->
 
+<!-- Job Search Section Start -->
+<section class="section job-section">
+  <div class="container padding-format">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="jobField">
+            Job Field
+            <span class="info-icon" data-toggle="tooltip" title="Select your job field">i</span>
+          </label>
+          <select class="form-control" id="jobField">
+            <option>Choose an option</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="jobPosition">
+            Job Position
+            <span class="info-icon" data-toggle="tooltip" title="Select your job position">i</span>
+          </label>
+          <select class="form-control" id="jobPosition">
+            <option>Choose an option</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Job Search Section End -->
+
 <div id="footer"></div>
 <?php include 'layouts/footer.php' ?>

@@ -10,25 +10,25 @@ include 'layouts/header.php'
 <!-- Banner Section Start -->
 <Section class="section banner-section">
 
-    <?php 
-        $bgImage = "images/banners/academic-banner.jpg";
-        $title = "Academic Programs";
-        echo renderBanner($bgImage, $title);
+    <?php
+    $bgImage = "images/banners/academic-banner.jpg";
+    $title = "Academic Programs";
+    echo renderBanner($bgImage, $title);
     ?>
 
-    <?php 
-        $content1 = "
+    <?php
+    $content1 = "
             In Host Myanmar Institute, we provide different programs relating to computer science.
                     Lorem
                     ipsum dolor sit amet consectetur. Ornare neque euismod nisi interdum. Lobortis mauris dolor
                     vitae turpis adipiscing. Tortor enim a nec parturient lorem maecenas ullamcorper massa.
         ";
-        $content2 = "
+    $content2 = "
             Placerat ridiculus massa curabitur felis malesuada egestas enim platea. Cum volutpat mattis
                     semper integer sed lorem scelerisque mauris posuere. Facilisi euismod vulputate id curabitur
                     etiam nullam nulla. Posuere lacus tempus enim mauris auctor.
         ";
-        echo renderContent($content1, $content2);
+    echo renderContent($content1, $content2);
     ?>
 
 </Section>
@@ -78,7 +78,7 @@ include 'layouts/header.php'
 <section class="section bg-white program-details" style="border-bottom: 1px solid;">
     <div class="container padding-format mb-5">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 detail-nav">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="academic-calender-tab" data-bs-toggle="tab"
@@ -96,13 +96,13 @@ include 'layouts/header.php'
                             aria-selected="false">Study Plan</button>
                     </li>
                 </ul>
-                <div class="tab-content" id="myTabContent">
+                <div class="tab-content program-detail" id="myTabContent">
                     <!-- Academic Calender Content Start -->
-                    <div class="tab-pane fade show active" id="academic-calender" role="tabpanel"
+                    <div class="tab-pane academic-calender fade show active" id="academic-calender" role="tabpanel"
                         aria-labelledby="academic-calender-tab">
                         <div class="container p-5">
                             <div class="row text-justify">
-                                <div class="col-md-12">
+                                <div class="col-md-12 calender-text">
                                     <p>
                                         In Host Myanmar Institute, we provide different programs relating to
                                         computer science. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -111,218 +111,240 @@ include 'layouts/header.php'
                                         alias fuga saepe!
                                     </p>
                                 </div>
-                                <div class="row mt-3">
-                                    <div class="col-md-6">
-                                        <div class="btn btn-success">May Intake</div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="btn btn-success">Oct Intake</div>
-                                    </div>
-                                </div>
-                                <div class="time-table row mt-3">
-                                    <div class="col-md-6">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-md-12 d-flex justify-content-center align-items-center">
-                                                    <?php echo renderTitle("Year 1") ?>
+                            </div>
+                            <div class="row calender-item">
+                                <div class="container">
+                                    <div class="row mt-3">
+                                        <div class="col-md-6 may-intake">
+                                            <div class="container">
+                                                <div class="row title-row">
+                                                    <div class="">May Intake</div>
                                                 </div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-md-4">
-                                                    <p class="ps-3">1st sem</p>
-                                                </div>
-                                                <div class="col-md-8 text-white d-flex justify-content-center align-items-center">
-                                                    <div class="school-month ms-2">
-                                                        May
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        June
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        July
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        Aug
-                                                    </div>
-                                                    <div class="semester-end ms-2">
-                                                        Sep
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-md-4">
-                                                    <p class="ps-3">1st sem</p>
-                                                </div>
-                                                <div class="col-md-8 text-white d-flex justify-content-center align-items-center">
-                                                    <div class="school-month ms-2">
-                                                        May
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        June
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        July
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        Aug
-                                                    </div>
-                                                    <div class="semester-end ms-2">
-                                                        Sep
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="container mt-4">
-                                            <div class="row">
-                                                <div class="col-md-12 d-flex justify-content-center align-items-center">
-                                                    <?php echo renderTitle("Year 2") ?>
-                                                </div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-md-4">
-                                                    <p class="ps-3">1st sem</p>
-                                                </div>
-                                                <div class="col-md-8 text-white d-flex justify-content-center align-items-center">
-                                                    <div class="school-month ms-2">
-                                                        May
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        June
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        July
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        Aug
-                                                    </div>
-                                                    <div class="semester-end ms-2">
-                                                        Sep
+                                                <div class="row mt-3">
+                                                    <div class="time-table col-md-12">
+                                                        <div class="container year-1">
+                                                            <div class="row">
+                                                                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                                                                    <?php echo renderTitle("Year 1") ?>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mt-3">
+                                                                <div class="col-md-3 d-flex align-items-center ps-3">
+                                                                    1st sem
+                                                                </div>
+                                                                <div class="col-md-9 text-white d-flex align-items-center">
+                                                                    <div class="school-month ms-2">
+                                                                        May
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        June
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        July
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Aug
+                                                                    </div>
+                                                                    <div class="semester-end ms-2">
+                                                                        Sep
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mt-3">
+                                                                <div class="col-md-3 d-flex align-items-center">
+                                                                    2nd sem
+                                                                </div>
+                                                                <div class="col-md-9 text-white d-flex align-items-center">
+                                                                    <div class="school-month ms-2">
+                                                                        Nov
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Dec
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Jan
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Feb
+                                                                    </div>
+                                                                    <div class="semester-end ms-2">
+                                                                        Mar
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-md-4">
-                                                    <p class="ps-3">1st sem</p>
-                                                </div>
-                                                <div class="col-md-8 text-white d-flex justify-content-center align-items-center">
-                                                    <div class="school-month ms-2">
-                                                        May
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        June
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        July
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        Aug
-                                                    </div>
-                                                    <div class="semester-end ms-2">
-                                                        Sep
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-md-12 d-flex justify-content-center align-items-center">
-                                                    <?php echo renderTitle("Year 1") ?>
-                                                </div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-md-4">
-                                                    <p class="ps-3">1st sem</p>
-                                                </div>
-                                                <div class="col-md-8 text-white d-flex justify-content-center align-items-center">
-                                                    <div class="school-month ms-2">
-                                                        May
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        June
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        July
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        Aug
-                                                    </div>
-                                                    <div class="semester-end ms-2">
-                                                        Sep
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-md-4">
-                                                    <p class="ps-3">1st sem</p>
-                                                </div>
-                                                <div class="col-md-8 text-white d-flex justify-content-center align-items-center">
-                                                    <div class="school-month ms-2">
-                                                        May
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        June
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        July
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        Aug
-                                                    </div>
-                                                    <div class="semester-end ms-2">
-                                                        Sep
+                                                <div class="row mt-3">
+                                                    <div class="time-table col-md-12">
+                                                        <div class="container year-2">
+                                                            <div class="row">
+                                                                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                                                                    <?php echo renderTitle("Year 2") ?>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mt-3">
+                                                                <div class="col-md-3 d-flex align-items-center ps-3">
+                                                                    1st sem
+                                                                </div>
+                                                                <div class="col-md-9 text-white d-flex align-items-center">
+                                                                    <div class="school-month ms-2">
+                                                                        May
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        June
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        July
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Aug
+                                                                    </div>
+                                                                    <div class="semester-end ms-2">
+                                                                        Sep
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mt-3">
+                                                                <div class="col-md-3 d-flex align-items-center">
+                                                                    2nd sem
+                                                                </div>
+                                                                <div class="col-md-9 text-white d-flex align-items-center">
+                                                                    <div class="school-month ms-2">
+                                                                        Nov
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Dec
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Jan
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Feb
+                                                                    </div>
+                                                                    <div class="semester-end ms-2">
+                                                                        Mar
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="container mt-4">
-                                            <div class="row">
-                                                <div class="col-md-12 d-flex justify-content-center align-items-center">
-                                                    <?php echo renderTitle("Year 2") ?>
+                                        <div class="col-md-6 oct-intake">
+                                            <div class="container">
+                                                <div class="row title-row">
+                                                    <div class="">Oct Intake</div>
                                                 </div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-md-4">
-                                                    <p class="ps-3">1st sem</p>
+                                                <div class="row mt-3">
+                                                    <div class="time-table col-md-12">
+                                                        <div class="container year-1">
+                                                            <div class="row">
+                                                                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                                                                    <?php echo renderTitle("Year 1") ?>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mt-3">
+                                                                <div class="col-md-3 d-flex align-items-center ps-3">
+                                                                    1st sem
+                                                                </div>
+                                                                <div class="col-md-9 text-white d-flex align-items-center">
+                                                                    <div class="school-month ms-2">
+                                                                        May
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        June
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        July
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Aug
+                                                                    </div>
+                                                                    <div class="semester-end ms-2">
+                                                                        Sep
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mt-3">
+                                                                <div class="col-md-3 d-flex align-items-center">
+                                                                    2nd sem
+                                                                </div>
+                                                                <div class="col-md-9 text-white d-flex align-items-center">
+                                                                    <div class="school-month ms-2">
+                                                                        Nov
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Dec
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Jan
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Feb
+                                                                    </div>
+                                                                    <div class="semester-end ms-2">
+                                                                        Mar
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="col-md-8 text-white d-flex justify-content-center align-items-center">
-                                                    <div class="school-month ms-2">
-                                                        May
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        June
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        July
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        Aug
-                                                    </div>
-                                                    <div class="semester-end ms-2">
-                                                        Sep
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-md-4">
-                                                    <p class="ps-3">1st sem</p>
-                                                </div>
-                                                <div class="col-md-8 text-white d-flex justify-content-center align-items-center">
-                                                    <div class="school-month ms-2">
-                                                        May
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        June
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        July
-                                                    </div>
-                                                    <div class="school-month ms-2">
-                                                        Aug
-                                                    </div>
-                                                    <div class="semester-end ms-2">
-                                                        Sep
+                                                <div class="row mt-3">
+                                                    <div class="time-table col-md-12">
+                                                        <div class="container year-2">
+                                                            <div class="row">
+                                                                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                                                                    <?php echo renderTitle("Year 2") ?>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mt-3">
+                                                                <div class="col-md-3 d-flex align-items-center ps-3">
+                                                                    1st sem
+                                                                </div>
+                                                                <div class="col-md-9 text-white d-flex align-items-center">
+                                                                    <div class="school-month ms-2">
+                                                                        May
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        June
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        July
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Aug
+                                                                    </div>
+                                                                    <div class="semester-end ms-2">
+                                                                        Sep
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mt-3">
+                                                                <div class="col-md-3 d-flex align-items-center">
+                                                                    2nd sem
+                                                                </div>
+                                                                <div class="col-md-9 text-white d-flex align-items-center">
+                                                                    <div class="school-month ms-2">
+                                                                        Nov
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Dec
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Jan
+                                                                    </div>
+                                                                    <div class="school-month ms-2">
+                                                                        Feb
+                                                                    </div>
+                                                                    <div class="semester-end ms-2">
+                                                                        Mar
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -335,51 +357,274 @@ include 'layouts/header.php'
                     <!-- Academic Calender Content End -->
 
                     <!-- Academic Fee Content Start -->
-                    <div class="tab-pane fade" id="academic-fee" role="tabpanel" aria-labelledby="academic-fee-tab">
+                    <div class="tab-pane academic-fee fade" id="academic-fee" role="tabpanel" aria-labelledby="academic-fee-tab">
                         <div class="container p-5">
-                            <div class="academic-fee row">
+                            <div class="row">
                                 <div class="first-column col-lg-6 col-sm-12">
                                     <div class="row">
-                                        <div class="col-md-5">
-                                            <p>Registration Fee</p>
+                                        <div class="col-md-5 d-flex">
+                                            <div class="academic-bullet col-md-2">
+                                                <img src="images/vectorElements/academicFee-bullet1.png" width="100%" height="100%" alt="">
+                                            </div>
+                                            <div class="col-md-10 ps-2">
+                                                <p>Registeration Fee</p>
+                                            </div>
                                         </div>
-                                        <div class="col-md-7">
+                                        <div class="course-price col-md-7">
                                             <p>500,000 MMK</p>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-5">
-                                            <p>Year 1</p>
+                                        <div class="col-md-5 d-flex">
+                                            <div class="academic-bullet col-md-2">
+                                                <img src="images/vectorElements/academicFee-bullet1.png" width="100%" height="100%" alt="">
+                                            </div>
+                                            <div class="col-md-10 ps-2">
+                                                <p>Year 1</p>
+                                            </div>
                                         </div>
-                                        <div class="col-md-7">
+                                        <div class="course-price col-md-7">
                                             <p>3,500,000 MMK</p>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-5">
-                                            <p>Year 2</p>
+                                        <div class="col-md-5 d-flex">
+                                            <div class="academic-bullet col-md-2">
+                                                <img src="images/vectorElements/academicFee-bullet1.png" width="100%" height="100%" alt="">
+                                            </div>
+                                            <div class="col-md-10 ps-2">
+                                                <p>Year 1</p>
+                                            </div>
                                         </div>
-                                        <div class="col-md-7">
+                                        <div class="course-price col-md-7">
                                             <p>3,000,000 MMK</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="second-column ps-3 col-lg-6 col-sm-12">
-                                    <div class="row">
-                                        <p>3 Times Installment / Year</p>
+                                    <div class="row d-flex">
+                                        <div class="academic-bullet col-md-2 ms-3">
+                                            <img src="images/vectorElements/academicFee-bullet2.png" alt="">
+                                        </div>
+                                        <div class="col-md-10 ms-2">
+                                            <p>3 Times Installment / Year</p>
+                                        </div>
                                     </div>
-                                    <div class="row">
-                                        <p>The program fee covers tuiton, registration and text books fees but does not cover ITPEC exam fees.</p>
+                                    <div class="row d-flex">
+                                        <div class="academic-bullet col-md-2 ms-3">
+                                            <img src="images/vectorElements/academicFee-bullet3.png" alt="">
+                                        </div>
+                                        <div class="col-md-10 ms-2">
+                                            <p>The program fee covers tuiton, registration and text books fees but does not cover ITPEC exam fees.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Academic Fee Content Emd -->                    
+                    <!-- Academic Fee Content Emd -->
 
                     <!-- Study Plan Content Start -->
-                    <div class="tab-pane fade" id="study-plan" role="tabpanel" aria-labelledby="study-plan-tab">
-                        study-plan content.</div>
+                    <div class="tab-pane study-plan p-5 fade" id="study-plan" role="tabpanel" aria-labelledby="study-plan-tab">
+                        <div class="row yearly-course">
+                            <div class="col-md-6 col-sm-12 year-1">
+                                <div class="row title">
+                                    <div>Year 1</div>
+                                </div>
+                                <div class="row semester semester-1 ps-2">
+                                    <div class="row sem-title py-3">
+                                        <p>Semester I</p>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>CS-101</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Fundamentals of computting</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>JPN-N5</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Basic Japanese Language</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>CS-101</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Fundamentals of computting</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>JPN-N5</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Basic Japanese Language</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>CS-101</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Fundamentals of computting</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>JPN-N5</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Basic Japanese Language</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row semester semester-2 ps-2">
+                                    <div class="row sem-title py-3">
+                                        <p>Semester II</p>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>CS-101</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Fundamentals of computting</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>JPN-N4</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Conversational Japanese Language</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>CS-101</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Fundamentals of computting</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>JPN-N4</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Conversational Japanese Language</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 year-2">
+                                <div class="row title">
+                                    <div>Year 2</div>
+                                </div>
+                                <div class="row semester semester-1 ps-2">
+                                    <div class="row sem-title py-3">
+                                        <p>Semester I</p>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>CS-101</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Fundamentals of computting</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>JPN-N3</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Advanced Japanese Language</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>CS-101</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Fundamentals of computting</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>JPN-N3</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Advanced Japanese Language</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>CS-101</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Fundamentals of computting</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>JPN-N3</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Advanced Japanese Language</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row semester semester-2 ps-2">
+                                    <div class="row sem-title py-3">
+                                        <p>Semester II</p>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>CS-101</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Fundamentals of computting</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>JPN-N3</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Advanced Japanese Language</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>CS-101</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Fundamentals of computting</p>
+                                        </div>
+                                    </div>
+                                    <div class="row course">
+                                        <div class="col-md-3 course-name">
+                                            <p>JPN-N3</p>
+                                        </div>
+                                        <div class="col-md-9 course-description">
+                                            <p>Advanced Japanese Language</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row download-pdf">
+                            <div class="download-icon">
+                                <a href="#" class="btn">Download Study Plan</a>
+                                <img src="images/gif/download-icon.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
                     <!-- Study Plan Content Start -->
                 </div>
             </div>

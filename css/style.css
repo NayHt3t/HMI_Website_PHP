@@ -476,6 +476,25 @@ button .testimonial-frame img {
 }
 
 /* academic page timetabel section */
+.calender-item .title-row {
+  width: 100px;
+  height: 30px;
+  background-color: #70C05C;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.time-table {
+  padding: 0;
+}
+
+.time-table .row {
+  padding: 0;
+}
+
 .time-table .logo-bullet {
   width: 30px;
   height: 28px;
@@ -512,6 +531,50 @@ button .testimonial-frame img {
 }
 
 /* tab-content */
+.detail-nav .nav button {
+  width: 250px;
+  height: 44px;
+  color: #21A7E0;
+  font-weight: 600;
+  font-size: 20px;
+  /* border-radius: 0; */
+}
+
+.detail-nav #study-plan-tab {
+  border-radius: 0;
+  border-left: 1.5px solid #21A7E0;
+}
+
+.detail-nav #academic-calender-tab {
+  border-radius: 0;
+  border-right: 1.5px solid #21A7E0;
+}
+
+.detail-nav .nav button.active {
+  color: white;
+  background-color: #21A7E0;
+  font-weight: 400;
+  border-radius: 5px !important;
+  border: 0;
+  border-bottom: 1.5px solid #21A7E0;
+}
+
+.detail-nav #academic-fee-tab.active {
+  border-radius: 5px;
+}
+
+.detail-nav button:nth-child(2):focus~ button:nth-child(1) {
+  border: none;
+}
+
+.detail-nav ul {
+  border-bottom: 1.5px solid #21A7E0;
+}
+
+.program-detail {
+  min-height: 725px;
+}
+
 .tab-content {
   background-color: #F0F7FF;
 }
@@ -519,6 +582,71 @@ button .testimonial-frame img {
 /* Academic Fee */
 .academic-fee .first-column {
   border-right: 1px #21A7E0 dashed;
+}
+
+.academic-fee .academic-bullet {
+  width: 20px;
+  height: 20px;
+}
+
+.academic-fee .course-price {
+  text-align: right;
+  padding-right: 30%;
+}
+
+  /* Study Plan */
+.yearly-course {
+  padding: 0 3rem 0 3rem;
+}
+
+.yearly-course .year-1 {
+  padding-right: 3.5rem;
+}
+
+.yearly-course .year-2 {
+  padding-left: 3.5rem;
+}
+
+.yearly-course .title {
+  background-color: #21A7E0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 3px 0 3 px;
+}
+
+.yearly-course .sem-title {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.yearly-course .sem-title p {
+  margin: 3px 0px 3px 0px;
+}
+
+.yearly-course .sem-title .course p {
+  margin: 2px 0 2px 0;
+}
+
+/* Career Opportunity Page */
+.download-pdf {
+  width: 200px;
+  height: 40px;
+  background-color: #70C05C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-pdf .download-icon img {
+  height: 24px;
+  width: 24px;
 }
 
 /* footer section */
