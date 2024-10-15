@@ -674,10 +674,11 @@ button .testimonial-frame img {
 }
 
 /* Student Life Page */
-/* .logo-bullet {
+
+.practical-seciton .logo-bullet {
   width: 38.32px;
-  height: 36px;
-} */
+  height: auto;
+}
 
 .practical-seciton .title-text {
   font-size: 24px;
@@ -686,6 +687,27 @@ button .testimonial-frame img {
   margin-bottom: 0;
   padding-left: 1rem;
   text-align: left !important;
+}
+
+.practical-seciton img {
+  border-radius: 5px;
+}
+
+.first-row .second-column .first-pic {
+  padding-top: 3rem;
+  margin-right: 2rem;
+}
+
+.first-row .second-column .second-pic {
+  padding-top: 1.5rem;
+}
+
+.second-row .first-pic {
+  padding-bottom: 2rem;
+}
+
+.second-row .second-pic {
+  padding-bottom: 5rem;
 }
 
 /* Career Opportunities Page */

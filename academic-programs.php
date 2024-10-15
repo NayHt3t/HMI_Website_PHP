@@ -51,13 +51,13 @@
                     (OJT) အတွက် အကောင်အထည်ဖော်ထားခြင်းဖြစ်ပါသည်။ </p>
             </div>
             <div class="col-md-7">
-                <img src="images/activities/image6.jpg" alt="activity-1" style="width: 100%; height: 20rem;"
+                <img src="images/activities/image6.jpg" alt="activity-1" style="width: 100%; height: 20rem; object-fit: cover;"
                     class="rounded">
             </div>
         </div>
         <div class="row px-3 pt-3 pb-4 mt-3" data-aos="fade-left">
             <div class="col-md-7">
-                <img src="images/activities/image8.jpg" alt="activity-1" style="width: 100%; height: 20rem;"
+                <img src="images/activities/image8.jpg" alt="activity-1" style="width: 100%; height: 20rem; object-fit: cover;"
                     class="rounded">
             </div>
             <div class="col-md-5 ps-5">
