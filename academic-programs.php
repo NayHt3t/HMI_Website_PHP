@@ -634,6 +634,9 @@
 </section>
 <!-- Program Detail Section End -->
 
+<!-- Messenger Icon -->
+<?php include 'components/messenger-icon.php' ?>
+
 <!-- Footer -->
 <div id="footer"></div>
 <?php include 'layouts/footer.php' ?>

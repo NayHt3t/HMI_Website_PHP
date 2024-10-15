@@ -34,32 +34,47 @@ After 3 months of On Job Training, HMI arranges for the students to have a cha
 <section class="section job-section">
   <div class="container padding-format">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 job-select">
         <div class="form-group">
           <label for="jobField">
             Job Field
-            <span class="info-icon" data-toggle="tooltip" title="Select your job field">i</span>
+            <span class="info-icon" data-toggle="tooltip" title="Select your job field">
+              <img src="images/vectorElements/questionMark.png" alt="">
+            </span>
           </label>
-          <select class="form-control" id="jobField">
+          <select class="form-select" id="jobField">
             <option>Choose an option</option>
           </select>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 job-select">
         <div class="form-group">
           <label for="jobPosition">
             Job Position
-            <span class="info-icon" data-toggle="tooltip" title="Select your job position">i</span>
+            <span class="info-icon" data-toggle="tooltip" title="Select your job field">
+              <img src="images/vectorElements/questionMark.png" alt="">
+            </span>
           </label>
-          <select class="form-control" id="jobPosition">
+          <select class="form-select" id="jobPosition">
             <option>Choose an option</option>
           </select>
         </div>
       </div>
     </div>
+    <div class="row job-board">
+      <div class="div text-center">
+        <p>
+          Currently there is no job postions opening. <br>
+          You can check up-to-date news on <a href="#" style="text-decoration: none;">our facebook page, HMMI Tech.</a>
+        </p>
+      </div>
+    </div>
   </div>
 </section>
 <!-- Job Search Section End -->
+
+<!-- Messenger Icon -->
+<?php include 'components/messenger-icon.php' ?>
 
 <div id="footer"></div>
 <?php include 'layouts/footer.php' ?>

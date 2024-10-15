@@ -383,7 +383,7 @@ button .testimonial-frame img {
 }
 
 /* Academic Programs Page */
-  /* Banner Section */
+/* Banner Section */
 .banner {
   background-size: cover;
   background-position: center;
@@ -601,7 +601,7 @@ button .testimonial-frame img {
   padding-right: 30%;
 }
 
-  /* Study Plan */
+/* Study Plan */
 .yearly-course {
   padding: 0 3rem 0 3rem;
 }
@@ -641,7 +641,7 @@ button .testimonial-frame img {
   margin: 2px 0 2px 0;
 }
 
-/* Career Opportunity Page */
+/* Study Plan Section */
 .download-pdf {
   display: flex;
   justify-content: center;
@@ -671,6 +671,103 @@ button .testimonial-frame img {
   height: 24px;
   width: 24px;
   margin-left: auto;
+}
+
+/* Student Life Page */
+/* .logo-bullet {
+  width: 38.32px;
+  height: 36px;
+} */
+
+.practical-seciton .title-text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #21A7E0;
+  margin-bottom: 0;
+  padding-left: 1rem;
+  text-align: left !important;
+}
+
+/* Career Opportunities Page */
+.job-section {
+  min-height: 22rem;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.job-select {
+  width: Fixed (262px)px;
+  height: Hug (54px)px;
+  top: 787px;
+  left: 68px;
+  padding: 8px 0px 0px 0px;
+  margin-right: 3%;
+  gap: 4px;
+  border-radius: 5px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  background: #E6F8FF;
+  border-bottom: 1px solid var(--Border-border-subtle-01, #C6C6C6);
+  box-shadow: 0px 2px 6px 0px #0000001A;
+}
+
+.job-select label {
+  color: var(--Text-text-disabled, #16161640);
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  padding: 0px 1rem 0 1rem;
+}
+
+.job-select .info-icon {
+  padding: 0 0 0.2rem 0.5rem;
+}
+
+.job-select select {
+  background-color: #E6F8FF;
+  color: var(--Text-text-disabled, #16161640);
+  border: 0;
+  padding-left: 1rem;
+}
+
+.job-section .job-board {
+  min-height: 15rem;
+  display: flex;
+  align-items: center;
+}
+
+.job-section .job-board p {
+  margin: 0;
+}
+
+/* Messenger Icon */
+.messenger-icon {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.messenger-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.messenger-window {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 1000;
 }
 
 /* footer section */

@@ -30,5 +30,30 @@
 </Section>
 <!-- Banner Section End -->
 
+<!-- Practical Section Start -->
+<section class="section practical-seciton bg-white">
+    <div class="container py-5 padding-format">
+        <div class="row first-row">
+            <div class="col-md-4 first-column">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <?php echo renderTitle("Technical Labs and Practical Days") ?>
+                </div>
+            </div>
+            <div class="col-md-8 second-column d-flex">
+                <div class="col-md-6">
+                    <img src="images/activities/practical-image1.png" width="100%" height="100%" alt="">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/activities/practical-image2.png" width="100%" height="100%" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Practical Section End -->
+
+<!-- Messenger Icon -->
+<?php include 'components/messenger-icon.php' ?>
+
 <div id="footer"></div>
 <?php include 'layouts/footer.php' ?>

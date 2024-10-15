@@ -405,8 +405,10 @@
 </section>
 <!-- Testimonial Section End -->
 
+<!-- Messenger Icon -->
+<?php include 'components/messenger-icon.php' ?>
+
 <!-- Footer Start -->
 <div id="footer"></div>
 
 <?php require_once 'layouts/footer.php' ?>
-<?php include_once 'layouts/component-loader.php'; ?>
