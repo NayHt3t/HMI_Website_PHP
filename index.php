@@ -1,6 +1,6 @@
 <?php 
   $pageTitle = 'Home';
-  include 'layouts/header.php' 
+  require_once 'layouts/header.php'
 ?>
 <?php include 'components/components.php' ?>
 
@@ -408,4 +408,5 @@
 <!-- Footer Start -->
 <div id="footer"></div>
 
-<?php include 'layouts/footer.php' ?>
+<?php require_once 'layouts/footer.php' ?>
+<?php include_once 'layouts/component-loader.php'; ?>

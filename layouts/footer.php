@@ -92,8 +92,8 @@
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
-<script src="../js/script-custom.js"></script>
-<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="js/script-custom.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -15,6 +15,8 @@
 
 <body>
 
+<div id="header"></div>
+
 <nav class="first-navbar d-flex align-items-center padding-format">
   <div class="container">
     <div class="row">

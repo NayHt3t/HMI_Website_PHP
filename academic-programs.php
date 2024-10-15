@@ -1,6 +1,6 @@
-<?php
-$pageTitle = 'Academic Programs';
-include 'layouts/header.php'
+<?php 
+  $pageTitle = 'Academic Programs';
+  include 'layouts/header.php' 
 ?>
 <?php include 'components/components.php' ?>
 
@@ -81,28 +81,28 @@ include 'layouts/header.php'
             <div class="col-lg-12 detail-nav">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="academic-calender-tab" data-bs-toggle="tab"
-                            data-bs-target="#academic-calender" type="button" role="tab"
-                            aria-controls="academic-calender" aria-selected="true">Academic Calender</button>
+                        <button class="nav-link calendar-tab active" id="academic-calendar-tab" data-bs-toggle="tab"
+                            data-bs-target="#academic-calendar" type="button" role="tab"
+                            aria-controls="academic-calendar" aria-selected="true">Academic calendar</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="academic-fee-tab" data-bs-toggle="tab"
+                        <button class="nav-link fee-tab" id="academic-fee-tab" data-bs-toggle="tab"
                             data-bs-target="#academic-fee" type="button" role="tab" aria-controls="academic-fee"
                             aria-selected="false">Academic Fees</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="study-plan-tab" data-bs-toggle="tab"
+                        <button class="nav-link plan-tab" id="study-plan-tab" data-bs-toggle="tab"
                             data-bs-target="#study-plan" type="button" role="tab" aria-controls="study-plan"
                             aria-selected="false">Study Plan</button>
                     </li>
                 </ul>
                 <div class="tab-content program-detail" id="myTabContent">
-                    <!-- Academic Calender Content Start -->
-                    <div class="tab-pane academic-calender fade show active" id="academic-calender" role="tabpanel"
-                        aria-labelledby="academic-calender-tab">
+                    <!-- Academic calendar Content Start -->
+                    <div class="tab-pane academic-calendar fade show active" id="academic-calendar" role="tabpanel"
+                        aria-labelledby="academic-calendar-tab">
                         <div class="container p-5">
                             <div class="row text-justify">
-                                <div class="col-md-12 calender-text">
+                                <div class="col-md-12 calendar-text">
                                     <p>
                                         In Host Myanmar Institute, we provide different programs relating to
                                         computer science. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -112,7 +112,7 @@ include 'layouts/header.php'
                                     </p>
                                 </div>
                             </div>
-                            <div class="row calender-item">
+                            <div class="row calendar-item">
                                 <div class="container">
                                     <div class="row mt-3">
                                         <div class="col-md-6 may-intake">
@@ -354,7 +354,7 @@ include 'layouts/header.php'
                             </div>
                         </div>
                     </div>
-                    <!-- Academic Calender Content End -->
+                    <!-- Academic calendar Content End -->
 
                     <!-- Academic Fee Content Start -->
                     <div class="tab-pane academic-fee fade" id="academic-fee" role="tabpanel" aria-labelledby="academic-fee-tab">
@@ -618,11 +618,12 @@ include 'layouts/header.php'
                                 </div>
                             </div>
                         </div>
-                        <div class="row download-pdf">
-                            <div class="download-icon">
-                                <a href="#" class="btn">Download Study Plan</a>
+                        <div class="row download-pdf mt-3">
+                            <a href="#" class="download-button">
+                                <!-- <a href="#" class="">Download Study Plan</a> -->
+                                Download Study Plan
                                 <img src="images/gif/download-icon.gif" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <!-- Study Plan Content Start -->
@@ -635,13 +636,39 @@ include 'layouts/header.php'
 
 <!-- Footer -->
 <div id="footer"></div>
+<?php include 'layouts/footer.php' ?>
 
-<script>
+
+
+<!-- <script>
     document.addEventListener('DOMContentLoaded', function() {
         AOS.init({
             duration: 1200,
         });
-    });
-</script>
 
-<?php include 'layouts/footer.php' ?>
+        const calendarTab = document.querySelector('.calendar-tab');
+        const feeTab = document.querySelector('.fee-tab');
+        const planTab = document.querySelector('.plan-tab');
+
+        function updateBorders() {
+            if (feeTab.classList.contains('active')) {
+                console.log('Updating borders')
+                feeTab.classList.remove('border-right', 'border-left');
+            } else {
+                if (calendarTab.classList.contains('active')) {
+                    feeTab.classList.add('border-right');
+                }
+                if (planTab.classList.contains('active')) {
+                    feeTab.classList.add('border-left');
+                }
+            }
+        }
+
+        document.querySelector('#myTab').addEventListener('shown.bs.tab', function() {
+            updateBorders();
+        });
+
+        updateBorders();
+
+    });
+</script> -->

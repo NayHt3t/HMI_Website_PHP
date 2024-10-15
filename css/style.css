@@ -476,7 +476,7 @@ button .testimonial-frame img {
 }
 
 /* academic page timetabel section */
-.calender-item .title-row {
+.calendar-item .title-row {
   width: 100px;
   height: 30px;
   background-color: #70C05C;
@@ -540,15 +540,15 @@ button .testimonial-frame img {
   /* border-radius: 0; */
 }
 
-.detail-nav #study-plan-tab {
+/* .detail-nav .plan-tab {
   border-radius: 0;
   border-left: 1.5px solid #21A7E0;
 }
 
-.detail-nav #academic-calender-tab {
+.detail-nav .calendar-tab {
   border-radius: 0;
   border-right: 1.5px solid #21A7E0;
-}
+} */
 
 .detail-nav .nav button.active {
   color: white;
@@ -559,12 +559,19 @@ button .testimonial-frame img {
   border-bottom: 1.5px solid #21A7E0;
 }
 
-.detail-nav #academic-fee-tab.active {
+.detail-nav .fee-tab.active {
   border-radius: 5px;
+  border: 0;
 }
 
-.detail-nav button:nth-child(2):focus~ button:nth-child(1) {
-  border: none;
+.border-right {
+  border-radius: 0;
+  border-right: 1.5px solid #21A7E0;
+}
+
+.border-left {
+  border-radius: 0;
+  border-left: 1.5px solid #21A7E0;
 }
 
 .detail-nav ul {
@@ -636,17 +643,34 @@ button .testimonial-frame img {
 
 /* Career Opportunity Page */
 .download-pdf {
-  width: 200px;
-  height: 40px;
-  background-color: #70C05C;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.download-pdf .download-icon img {
+.download-button {
+  width: 200px;
+  height: 40px;
+  background-color: #70C05C;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.download-button img {
   height: 24px;
   width: 24px;
+  margin-left: auto;
 }
 
 /* footer section */

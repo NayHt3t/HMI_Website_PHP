@@ -1,32 +1,32 @@
 // header and footer
 $(document).ready(function () {
-  $("#header").load("layouts/header.html", function () {
-    const currentPath = window.location.pathname.split("/").pop();
-    const navLinks = document.querySelectorAll(".nav-link");
+  const currentPath = window.location.pathname.split("/").pop();
+  const navLinks = document.querySelectorAll(".nav-link");
+  const footerLinks = document.querySelectorAll(".footer-link");
 
-    navLinks.forEach(link => {
-      const linkPath = link.getAttribute("href").split("/").pop();
-      if (linkPath === currentPath) {
-        link.classList.add("active");
-      } else {
-        link.classList.remove("active");
-      }
-    });
+  navLinks.forEach(link => {
+    const linkPath = link.getAttribute("href").split("/").pop();
+    if (linkPath === currentPath) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
   });
 
-  $("#footer").load("layouts/footer.html", function () {
-    const currentPath = window.location.pathname.split("/").pop();
-    const footerLink = document.querySelectorAll(".footer-link");
+  console.log(currentPath);
+  
 
-    footerLink.forEach(link => {
-      const linkPath = link.getAttribute("href").split("/").pop();
-      if (linkPath === currentPath) {
-        link.classList.add("active");
-      } else {
-        link.classList.remove("active");
-      }
-    });
+  footerLinks.forEach(link => {
+    const linkPath = link.getAttribute("href").split("/").pop();
+    if (linkPath === currentPath) {
+      link.classList.add("active");
+      console.log(linkPath);
+      
+    } else {
+      link.classList.remove("active");
+    }
   });
+
 });
 
 $(function () {
