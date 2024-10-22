@@ -36,18 +36,6 @@ body {
   background-color: #21A7E0;
 }
 
-.career .accordion-button {
-  background-color: #21A7E0;
-  color: #fff;
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.career .accordion-button:not(.collapsed) {
-  background-color: #21A7E0;
-  color: #fff;
-}
-
 /* search box */
 .has-search .form-control {
   width: 50%;
@@ -78,13 +66,19 @@ body {
   background-color: #fff;
 }
 
+.second-navbar .btn {
+  border-radius: 4px;
+  opacity: 0px;
+  background: #D73636;
+}
+
+.second-navbar .btn:hover {
+  background-color: #ae1515;
+}
+
 .nav-link.custom-nav-link {
   color: #000000;
 }
-
-/* nav-link.custom-nav-link:hover {
-  
-} */
 
 .nav-link.custom-nav-link.active {
   display: flex;
@@ -209,9 +203,9 @@ section.courses .card i {
 section.courses .card h3 {
   font-size: 24px;
   font-weight: 600;
-  color: #21A7E0;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  color: #21A7E0 !important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 section.courses .card .btn:hover {
@@ -242,6 +236,37 @@ section.courses .card-3 {
   color: #21A7E0;
   margin-bottom: 0;
   padding-left: 1rem;
+}
+
+/* Career Section */
+.career .accordion-button {
+  background-color: #21A7E0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.career .accordion-button:not(.collapsed) {
+  background-color: #21A7E0;
+  color: #fff;
+}
+
+.career .accordion-button.collapsed::after {
+  content: "";
+  background-image: url('../images/vectorElements/accordion2.png');
+  background-size: 1em 1em;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+}
+
+.career .accordion-button:not(.collapsed)::after {
+  content: "";
+  background-image: url('../images/vectorElements/accordion2.png');
+  background-size: 1em 1em;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
 }
 
 /* Image Scroll Film */

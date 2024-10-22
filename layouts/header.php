@@ -66,7 +66,7 @@
           <a class="nav-link custom-nav-link" href="career-opportunity.php">Carrer Opprtunity</a>
         </li>
         <li class="nav-item me-0">
-          <a class="btn btn-danger" href="#">Apply Now</a>
+          <a class="btn btn-danger" href="application-form.php">Apply Now</a>
         </li>
       </ul>
     </div>

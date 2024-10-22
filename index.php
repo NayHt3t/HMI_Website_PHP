@@ -72,7 +72,7 @@
             <i class="fas fa-clock fa-2x card-icon"></i>
             <h3 class="card-title text-primary">2-year Program</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At posuere odio amet
-              dignissim et. Eros nunc elit maecenas ac felis enim massa volutpat.</p>
+              dignissim et. Eros nunc elit maecenas ac felis enim massa volutpat. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="#" class="btn btn-light mt-auto">Read More &triangleright;</a>
           </div>
         </div>
@@ -84,7 +84,7 @@
             <i class="fas fa-laptop-code fa-2x card-icon"></i>
             <h3 class="card-title text-primary">Software Engineering</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At posuere odio amet
-              dignissim et. Eros nunc elit maecenas ac felis enim massa volutpat.</p>
+              dignissim et. Eros nunc elit maecenas ac felis enim massa volutpat. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="#" class="btn btn-light mt-auto">Read More &triangleright;</a>
           </div>
         </div>
@@ -96,7 +96,7 @@
             <i class="fas fa-people-arrows fa-2x card-icon"></i>
             <h3 class="card-title text-primary">On-Job Training</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At posuere odio amet
-              dignissim et. Eros nunc elit maecenas ac felis enim massa volutpat.</p>
+              dignissim et. Eros nunc elit maecenas ac felis enim massa volutpat. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="#" class="btn btn-light mt-auto">Read More &triangleright;</a>
           </div>
         </div>
