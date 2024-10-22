@@ -1,5 +1,5 @@
 <footer class="footer bg-white text-lg-start">
-  <div class="container py-4 padding-format">
+  <div class="container pt-4 pb-1 padding-format">
     <div class="row border-bottom border-2">
       <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
         <a class="" href="index.php">
@@ -74,11 +74,11 @@
         <p class="mt-3 mb-0">&copy; 2024 - hmmi.tech All rights reserved.</p>
       </div>
       <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-        <div class="">
+        <div class="subscribe">
           <label for="email">Newsletter for up-to-date news</label>
           <form class="d-flex justify-content-center">
             <input type="email" class="form-control" placeholder="example@gmail.com">
-            <button class="btn btn-dark" type="submit">Subscribe</button>
+            <button class="btn" type="submit">Subscribe</button>
           </form>
         </div>
       </div>
@@ -90,6 +90,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
 <script src="js/script-custom.js"></script>

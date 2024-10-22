@@ -101,9 +101,14 @@ body {
 
 /* intro section */
 .intro {
+  height: 100vh;
   background-color: #F0F7FF;
   padding: 50px 0;
   text-align: left;
+}
+
+.intro .container {
+  margin-top: 6rem;
 }
 
 .intro h1 {
@@ -127,16 +132,16 @@ body {
 }
 
 .btn-apply {
-  background-color: #007bff;
+  background-color: #21A7E0;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   text-decoration: none;
 }
 
 .btn-apply:hover {
-  background-color: #0056b3;
+  background-color: #007bff;
 }
 
 .navbar-nav .nav-item {
@@ -211,6 +216,7 @@ section.courses .card h3 {
 
 section.courses .card .btn:hover {
   background-color: #21A7E0;
+  color: white;
 }
 
 section.courses .card-1 {
@@ -256,7 +262,6 @@ section.courses .card-3 {
 .film-strip img {
   height: 150px;
   margin-right: 10px;
-  border: 2px solid #fff;
 }
 
 @keyframes scroll {
@@ -440,19 +445,20 @@ button .testimonial-frame img {
 .banner-vector1 {
   position: absolute;
   bottom: -25px;
-  left: 35.75%;
+  left: 38.65%;
 }
 
 .banner-vector2 {
   position: absolute;
   bottom: -25px;
-  right: 35.75%;
+  right: 38.6%;
 }
 
 .content {
   background-color: transparent;
   padding: 3rem;
   max-width: 100%;
+  height: auto;
 }
 
 .vector-div {
@@ -675,39 +681,125 @@ button .testimonial-frame img {
 
 /* Student Life Page */
 
-.practical-seciton .logo-bullet {
+.practical-section .logo-bullet {
   width: 38.32px;
   height: auto;
 }
 
-.practical-seciton .title-text {
+.practical-section .title-text {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   color: #21A7E0;
   margin-bottom: 0;
   padding-left: 1rem;
   text-align: left !important;
 }
 
-.practical-seciton img {
-  border-radius: 5px;
+.practical-section img {
+  border-radius: 3px;
+  object-fit: cover;
 }
 
-.first-row .second-column .first-pic {
+.practical-section .first-row .second-column .first-pic {
   padding-top: 3rem;
   margin-right: 2rem;
 }
 
-.first-row .second-column .second-pic {
+.practical-section .first-row .second-column .second-pic {
   padding-top: 1.5rem;
 }
 
-.second-row .first-pic {
+.practical-section .second-row .first-pic {
   padding-bottom: 2rem;
 }
 
-.second-row .second-pic {
+.practical-section .second-row .second-pic {
   padding-bottom: 5rem;
+}
+
+.seminar-section .container {
+  padding: 5rem 0 5rem 10rem;
+}
+
+.seminar-section img {
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.seminar-section .first-row .first-pic {
+  width: 455px;
+  height: 237px;
+  padding: 0;
+}
+
+.seminar-section .first-row .second-pic {
+  width: 385px;
+  height: 215.45px;
+  padding: 0;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+.seminar-section .second-row .pic {
+  width: 549px;
+  height: 281px;
+  padding: 0;
+}
+
+.seminar-section .second-row .logo-bullet {
+  width: 45px;
+  height: auto;
+}
+
+.seminar-section .second-row .title-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #21A7E0;
+  margin-bottom: 0;
+  margin-left: -5%;
+}
+
+.trip-section .picture-row img {
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.trip-section .first-column {
+  justify-items: end;
+}
+
+.trip-section .first-column .first-pic {
+  width: 325px;
+  height: 217px;
+}
+
+.trip-section .first-column .second-pic {
+  width: 289px;
+  height: 232px;
+}
+
+.trip-section .second-column {
+  margin-top: 3rem;
+}
+
+/* .trip-section .second-column .first-pic {
+  width: 382px;
+  height: 254px;
+}
+
+.trip-section .second-column .second-pic {
+  width: 382px;
+  height: 255px;
+} */
+
+.trip-section .third-column .first-pic {
+  width: 353px;
+  height: 235px;
+}
+
+.trip-section .third-column .second-pic {
+  width: 401px;
+  height: 267px;
 }
 
 /* Career Opportunities Page */
@@ -764,8 +856,8 @@ button .testimonial-frame img {
 /* Messenger Icon */
 .messenger-icon {
   position: fixed;
-  bottom: 3rem;
-  right: 3rem;
+  bottom: 4rem;
+  right: 5rem;
   background-color: #007bff;
   color: white;
   border-radius: 50%;
@@ -781,15 +873,19 @@ button .testimonial-frame img {
 
 .messenger-window {
   position: fixed;
-  bottom: 80px;
-  right: 20px;
-  width: 300px;
-  height: 400px;
+  bottom: 8rem;
+  right: 5rem;
+  width: 315px;
+  height: 320px;
   background-color: white;
   border: 1px solid #ccc;
+  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: none;
   z-index: 1000;
+  gap: 10px;
+  opacity: 0px;
+
 }
 
 /* footer section */
@@ -836,4 +932,20 @@ button .testimonial-frame img {
 
 .col-md-1 i.icon {
   color: #21A7E0;
+}
+
+.footer .subscribe form {
+  height: 3rem;
+  margin-top: 0.5rem;
+}
+
+.footer .subscribe form input {
+  border-radius: 3px 0 0 3px;
+}
+
+.footer .subscribe form button {
+  border-radius: 0 3px 3px 0;
+  background-color: #051223;
+  color: white;
+  width: 108px;
 }

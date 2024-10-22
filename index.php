@@ -11,7 +11,7 @@
 
 <!-- Intro Section Start -->
 <section class="intro">
-  <div class="container my-5 padding-format">
+  <div class="container padding-format">
     <div class="row">
       <div class="col-lg-6 col-md-12 fly-in-left">
         <div class="mb-3">

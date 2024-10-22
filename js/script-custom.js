@@ -4,6 +4,10 @@ $(document).ready(function () {
   const navLinks = document.querySelectorAll(".nav-link");
   const footerLinks = document.querySelectorAll(".footer-link");
 
+  AOS.init({
+    duration: 1200,
+  });
+
   navLinks.forEach(link => {
     const linkPath = link.getAttribute("href").split("/").pop();
     if (linkPath === currentPath) {
@@ -13,15 +17,15 @@ $(document).ready(function () {
     }
   });
 
-  console.log(currentPath);
-  
+  //console.log(currentPath);
+
 
   footerLinks.forEach(link => {
     const linkPath = link.getAttribute("href").split("/").pop();
     if (linkPath === currentPath) {
       link.classList.add("active");
       console.log(linkPath);
-      
+
     } else {
       link.classList.remove("active");
     }
