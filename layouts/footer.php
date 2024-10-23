@@ -10,7 +10,7 @@
         </p>
       </div>
 
-      <div class="col-lg-4 col-md-6 mb-4 ps-5 mb-md-0">
+      <div class="quicklinks col-lg-4 col-md-6 mb-4 ps-5 mb-md-0">
         <h5 class="text-uppercase footer-text-title">Quick Links</h5>
         <ul class="list-unstyled mb-0">
           <li>
@@ -36,29 +36,29 @@
         </ul>
       </div>
 
-      <div class="col-lg-4 col-md-6 mb-lg-0">
+      <div class="addresses col-lg-4 col-md-6 mb-lg-0">
         <h5 class="text-uppercase footer-text-title">Address</h5>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-md-1 col-1 col-xs-1">
             <i class="fas fa-map-marker-alt icon"></i>
           </div>
-          <div class="col-md-11">
+          <div class="col-md-11 col-11 col-xs-11">
             <p>Room 64, 65, Tower 11, Garden City Condo, Mandalay, Myanmar</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-md-1 col-1 col-xs-1">
             <i class="fas fa-phone icon"></i>
           </div>
-          <div class="col-md-11">
+          <div class="col-md-11 col-11 col-xs-11">
             <p>09 404 0603 66 / 77</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-md-1 col-1 col-xs-1">
             <i class="fas fa-envelope icon"></i>
           </div>
-          <div class="col-md-11">
+          <div class="col-md-11 col-11 col-xs-11">
             <p>admin@hostmyanmar.net</p>
           </div>
         </div>

@@ -1,6 +1,6 @@
-<?php 
-  $pageTitle = 'Home';
-  require_once 'layouts/header.php'
+<?php
+$pageTitle = 'Home';
+require_once 'layouts/header.php'
 ?>
 <?php include 'components/components.php' ?>
 
@@ -26,7 +26,9 @@
         <div class="justify-content-center align-items-center">
           <div class="element-container">
             <div class="fly-in-bottom">
-              <img src="images/Vector_girl.png" width="100%" height="100%" alt="Vector Photo">
+              <div class="vector-girl">
+                <img src="images/Vector_girl.png" width="100%" height="100%" alt="Vector Photo">
+              </div>
               <div class="h-line"></div>
             </div>
             <div class="element idea fly-in-top">
@@ -58,9 +60,9 @@
 
     <div class='row d-flex justify-content-center align-items-center'>
       <div class='col-md-4 d-flex justify-content-center align-items-center my-4'>
-      
+
         <?php echo renderTitle("Our Courses") ?>
-      
+
       </div>
     </div>
 
@@ -115,7 +117,7 @@
           <div class="col-md-12 d-flex justify-content-center align-items-center my-4">
 
             <?php echo renderTitle("Career Opportunities") ?>
-            
+
           </div>
         </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptatum explicabo asperiores officia
@@ -236,7 +238,7 @@
       <div class="col-lg-12">
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-md-12 d-flex justify-content-center align-items-center my-4">
-          <?php echo renderTitle("Our Activities") ?>
+            <?php echo renderTitle("Our Activities") ?>
           </div>
         </div>
       </div>
@@ -282,7 +284,7 @@
             <div class="col-md-12">
               <div class="row d-flex align-items-center">
                 <div class="col-md-12 d-flex align-items-center my-4">
-         
+
                   <?php echo renderTitle("Our Students Diversity") ?>
                 </div>
               </div>
@@ -311,7 +313,7 @@
       <div class="col-lg-12">
         <div class="row d-flex align-items-center">
           <div class="col-md-12 d-flex justify-content-center align-items-center my-4">
-          <?php echo renderTitle("Our Studentss Testimonials") ?>
+            <?php echo renderTitle("Our Students' Testimonials") ?>
           </div>
         </div>
       </div>

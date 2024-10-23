@@ -1,0 +1,84 @@
+@media (max-width: 767px) {
+
+    .first-navbar {
+        display: none !important;
+    }
+
+    .second-navbar .container-fluid {
+        padding: 0 !important;
+    }
+
+    .navbar-brand img {
+        height: 3rem !important;
+        /* content: url('../images/HMI_logo_only.png'); */
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .collapse .navbar-nav .nav-link {
+        padding: 0.5rem 0;
+    }
+
+    .navbar-nav {
+        margin-top: 1rem;
+    }
+
+    .navbar-collapse {
+        flex-direction: column;
+    }
+
+    .messenger-icon {
+        display: none !important;
+    }
+
+    .intro {
+        height: auto;
+        background-color: #F0F7FF;
+        text-align: left;
+    }
+
+    .intro .container {
+        margin-top: 1rem;
+    }
+
+    .intro .element-design {
+        margin-top: 3rem;
+    }
+
+    .intro .element-container img {
+        width: 80% !important;
+        height: auto;
+    }
+
+    .vector-girl {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .map-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: auto !important;
+    }
+
+    .title-text {
+        font-size: 25px;
+        font-weight: 600;
+        color: #21A7E0;
+        margin-bottom: 0;
+        padding-left: 1rem;
+    }
+
+
+    .footer .quicklinks {
+        padding-left: 0 !important;
+    }
+
+    .footer .addresses {
+        padding-left: 0 !important;
+    }
+}

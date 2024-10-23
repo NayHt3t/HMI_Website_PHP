@@ -10,6 +10,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/custom-animation.css">
+  <link rel="stylesheet" href="css/styles-for-mobile.css">
   
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -42,7 +43,7 @@
 
 <nav class="navbar second-navbar navbar-expand-lg navbar-light sticky-top padding-format">
   <div class="container-fluid">
-    <div class="naver-brand col-lg-3 col-md-3 col-sm-3">
+    <div class="naver-brand col-lg-3 col-md-3 col-6">
       <a class="navbar-brand" href="index.php">
         <img src="images/HMI_logo.png" alt="Host Myanmnar Institute Logo" style="width: 100%;height: 4.5rem;">
       </a>
