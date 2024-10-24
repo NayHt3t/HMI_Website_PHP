@@ -11,7 +11,7 @@ include 'layouts/header.php'
 
     <?php
     $bgImage = "images/banners/studentLife-banner.jpg";
-    $title = "Student Life";
+    $title = "images/bannerTitles/students-life.png";
     echo renderBanner($bgImage, $title);
     ?>
 

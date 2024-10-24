@@ -11,7 +11,7 @@ include 'layouts/header.php'
 
   <?php
   $bgImage = "images/banners/careerOpportunities-banner.png";
-  $title = "Career Opportunities";
+  $title = "images/bannerTitles/career-opportunities.png";
   echo renderBanner($bgImage, $title);
   ?>
 
@@ -34,7 +34,7 @@ After 3 months of On Job Training, HMI arranges for the students to have a cha
 <section class="section job-section">
   <div class="container padding-format">
     <div class="row">
-      <div class="col-md-3 job-select">
+      <div class="col-md-3 col-6 job-select job-field">
         <div class="form-group">
           <label for="jobField">
             Job Field
@@ -47,7 +47,7 @@ After 3 months of On Job Training, HMI arranges for the students to have a cha
           </select>
         </div>
       </div>
-      <div class="col-md-3 job-select">
+      <div class="col-md-3 col-6 job-select job-position">
         <div class="form-group">
           <label for="jobPosition">
             Job Position

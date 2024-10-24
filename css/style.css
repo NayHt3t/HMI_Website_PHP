@@ -228,6 +228,7 @@ section.courses .card-3 {
 .logo-bullet {
   width: 38.32px;
   height: 36px;
+  object-fit: cover;
 }
 
 .title-text {
@@ -421,7 +422,7 @@ button .testimonial-frame img {
   position: relative;
 }
 
-.banner-text {
+.banner-title {
   position: absolute;
   display: flex;
   text-align: center;
@@ -432,10 +433,10 @@ button .testimonial-frame img {
   bottom: -20px;
   margin: 0 !important;
   padding: 5px;
-  background-color: white;
+  /* background-color: white; */
 }
 
-.banner-text .container {
+/* .banner-text .container {
   margin: 0 !important;
   padding: 5px 0px 5px 0px !important;
 }
@@ -477,7 +478,7 @@ button .testimonial-frame img {
   position: absolute;
   bottom: -25px;
   right: 38.6%;
-}
+} */
 
 .content {
   background-color: transparent;

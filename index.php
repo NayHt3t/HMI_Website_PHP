@@ -20,7 +20,7 @@ require_once 'layouts/header.php'
         <h1>Advanced Degrees,</h1>
         <h1>Endless Opportunities:</h1>
         <p>Explore Our Computing Programs</p>
-        <a href="#" class="btn-apply">Apply Now &RightArrow;</a>
+        <a href="application-form.php" class="btn-apply">Apply Now &RightArrow;</a>
       </div>
       <div class="element-design col-lg-6 col-md-12">
         <div class="justify-content-center align-items-center">
@@ -260,7 +260,7 @@ require_once 'layouts/header.php'
 <!-- Activity Section End -->
 
 <!-- Diversity Section Start -->
-<section class="student-deversity bg-white">
+<section class="student-diversity bg-white">
   <div class="container py-5 padding-format">
     <div class="row">
       <div class="col-md-6">

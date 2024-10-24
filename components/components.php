@@ -10,24 +10,35 @@ function renderTitle($title)
         ";
 }
 
+// function renderBanner($bgImage, $title)
+// {
+//   return "
+//         <div class='banner d-flex justify-content-center' style='background-image: url($bgImage);'>
+//         <div class='banner-vector1'>
+//             <img src='images/vectorElements/academicVector1.png' alt=''>
+//         </div>
+//         <div class='banner-text text-center text-primary'>
+//             <div class='container'>
+//                 <div class='row'>
+//                     <div class='col-md-12 d-flex justify-content-center align-items-center'>
+//                        " . renderTitle($title) . "
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//         <div class='banner-vector2'>
+//             <img src='images/vectorElements/academicVector2.png' alt=''>
+//         </div>
+//     </div>
+//       ";
+// }
+
 function renderBanner($bgImage, $title)
 {
   return "
         <div class='banner d-flex justify-content-center' style='background-image: url($bgImage);'>
-        <div class='banner-vector1'>
-            <img src='images/vectorElements/academicVector1.png' alt=''>
-        </div>
-        <div class='banner-text text-center text-primary'>
-            <div class='container'>
-                <div class='row'>
-                    <div class='col-md-12 d-flex justify-content-center align-items-center'>
-                       " . renderTitle($title) . "
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class='banner-vector2'>
-            <img src='images/vectorElements/academicVector2.png' alt=''>
+        <div class='banner-title'>
+            <img src='$title' alt=''>
         </div>
     </div>
       ";

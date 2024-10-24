@@ -9,10 +9,9 @@
 
 <!-- Banner Section Start -->
 <Section class="section banner-section">
-
     <?php
     $bgImage = "images/banners/academic-banner.jpg";
-    $title = "Academic Programs";
+    $title = "images/bannerTitles/academic-programs.png";
     echo renderBanner($bgImage, $title);
     ?>
 
@@ -35,7 +34,7 @@
 <!-- Banner Section End -->
 
 <!-- Program Intro Section Start -->
-<section class="section bg-white program-intro">
+<section class="program-intro bg-white program-intro">
     <div class="container py-5 position-relative padding-format">
         <div class="row d-flex align-items-center" data-aos="fade-down">
             <div class="col-md-12 d-flex justify-content-center align-items-center">

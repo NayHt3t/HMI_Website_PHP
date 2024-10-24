@@ -143,3 +143,15 @@ html {
         /* Smaller width for larger screens */
     }
 }
+
+@media (max-width: 768px) {
+
+    .container {
+        height: 90%;
+    }
+
+    .sm-vector:first-of-type,
+    .sm-vector:last-of-type {
+        display: none;
+    }
+}
