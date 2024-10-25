@@ -359,9 +359,9 @@
                     <div class="tab-pane academic-fee fade" id="academic-fee" role="tabpanel" aria-labelledby="academic-fee-tab">
                         <div class="container p-5">
                             <div class="row">
-                                <div class="first-column col-lg-6 col-sm-12">
+                                <div class="first-column col-lg-6 col-12">
                                     <div class="row">
-                                        <div class="col-md-5 d-flex">
+                                        <div class="col-md-5 col-6 d-flex">
                                             <div class="academic-bullet col-md-2">
                                                 <img src="images/vectorElements/academicFee-bullet1.png" width="100%" height="100%" alt="">
                                             </div>
@@ -369,12 +369,12 @@
                                                 <p>Registeration Fee</p>
                                             </div>
                                         </div>
-                                        <div class="course-price col-md-7">
+                                        <div class="course-price col-md-7 col-6">
                                             <p>500,000 MMK</p>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-5 d-flex">
+                                        <div class="col-md-5 col-6 d-flex">
                                             <div class="academic-bullet col-md-2">
                                                 <img src="images/vectorElements/academicFee-bullet1.png" width="100%" height="100%" alt="">
                                             </div>
@@ -382,12 +382,12 @@
                                                 <p>Year 1</p>
                                             </div>
                                         </div>
-                                        <div class="course-price col-md-7">
+                                        <div class="course-price col-md-7 col-6">
                                             <p>3,500,000 MMK</p>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-5 d-flex">
+                                        <div class="col-md-5 col-6 d-flex">
                                             <div class="academic-bullet col-md-2">
                                                 <img src="images/vectorElements/academicFee-bullet1.png" width="100%" height="100%" alt="">
                                             </div>
@@ -395,25 +395,25 @@
                                                 <p>Year 1</p>
                                             </div>
                                         </div>
-                                        <div class="course-price col-md-7">
+                                        <div class="course-price col-md-7 col-6">
                                             <p>3,000,000 MMK</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="second-column ps-3 col-lg-6 col-sm-12">
+                                <div class="second-column ps-3 col-lg-6 col-12">
                                     <div class="row d-flex">
-                                        <div class="academic-bullet col-md-2 ms-3">
+                                        <div class="academic-bullet col-md-2 col-2">
                                             <img src="images/vectorElements/academicFee-bullet2.png" alt="">
                                         </div>
-                                        <div class="col-md-10 ms-2">
+                                        <div class="col-md-10 col-10 ms-2">
                                             <p>3 Times Installment / Year</p>
                                         </div>
                                     </div>
                                     <div class="row d-flex">
-                                        <div class="academic-bullet col-md-2 ms-3">
+                                        <div class="academic-bullet col-md-2 col-2">
                                             <img src="images/vectorElements/academicFee-bullet3.png" alt="">
                                         </div>
-                                        <div class="col-md-10 ms-2">
+                                        <div class="col-md-10 col-10 ms-2">
                                             <p>The program fee covers tuiton, registration and text books fees but does not cover ITPEC exam fees.</p>
                                         </div>
                                     </div>
@@ -426,7 +426,7 @@
                     <!-- Study Plan Content Start -->
                     <div class="tab-pane study-plan p-5 fade" id="study-plan" role="tabpanel" aria-labelledby="study-plan-tab">
                         <div class="row yearly-course">
-                            <div class="col-md-6 col-sm-12 year-1">
+                            <div class="col-md-6 col-12 year-1">
                                 <div class="row title">
                                     <div>Year 1</div>
                                 </div>
@@ -435,50 +435,50 @@
                                         <p>Semester I</p>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>CS-101</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Fundamentals of computting</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>JPN-N5</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Basic Japanese Language</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>CS-101</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Fundamentals of computting</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>JPN-N5</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Basic Japanese Language</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>CS-101</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Fundamentals of computting</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>JPN-N5</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Basic Japanese Language</p>
                                         </div>
                                     </div>
@@ -488,40 +488,40 @@
                                         <p>Semester II</p>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>CS-101</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Fundamentals of computting</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>JPN-N4</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Conversational Japanese Language</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>CS-101</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Fundamentals of computting</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>JPN-N4</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Conversational Japanese Language</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-12 year-2">
+                            <div class="col-md-6 col-12 year-2">
                                 <div class="row title">
                                     <div>Year 2</div>
                                 </div>
@@ -530,50 +530,50 @@
                                         <p>Semester I</p>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>CS-101</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Fundamentals of computting</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>JPN-N3</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Advanced Japanese Language</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>CS-101</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Fundamentals of computting</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>JPN-N3</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Advanced Japanese Language</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>CS-101</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Fundamentals of computting</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>JPN-N3</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Advanced Japanese Language</p>
                                         </div>
                                     </div>
@@ -583,34 +583,34 @@
                                         <p>Semester II</p>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>CS-101</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Fundamentals of computting</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>JPN-N3</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Advanced Japanese Language</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>CS-101</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Fundamentals of computting</p>
                                         </div>
                                     </div>
                                     <div class="row course">
-                                        <div class="col-md-3 course-name">
+                                        <div class="col-md-3 col-3 course-name">
                                             <p>JPN-N3</p>
                                         </div>
-                                        <div class="col-md-9 course-description">
+                                        <div class="col-md-9 col-9 course-description">
                                             <p>Advanced Japanese Language</p>
                                         </div>
                                     </div>

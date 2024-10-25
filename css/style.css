@@ -628,6 +628,10 @@ button .testimonial-frame img {
   height: 20px;
 }
 
+.academic-fee .second-column .academic-bullet {
+  margin-left: 1rem;
+}
+
 .academic-fee .course-price {
   text-align: right;
   padding-right: 30%;
@@ -728,7 +732,7 @@ button .testimonial-frame img {
 
 .practical-section .first-row .second-column .first-pic {
   padding-top: 3rem;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .practical-section .first-row .second-column .second-pic {

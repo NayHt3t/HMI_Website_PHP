@@ -40,19 +40,21 @@ include 'layouts/header.php'
                 </div>
             </div>
             <div class="col-md-8 second-column d-flex" data-aos="fade-left">
-                <div class="col-md-6 first-pic">
-                    <img src="images/activities/practical-image1.png" width="100%" height="100%" alt="">
-                </div>
-                <div class="col-md-6 second-pic">
-                    <img src="images/activities/practical-image2.png" width="100%" height="100%" alt="">
+                <div class="row">
+                    <div class="col-md-6 col-6 first-pic">
+                        <img src="images/activities/practical-image1.png" width="100%" height="100%" alt="">
+                    </div>
+                    <div class="col-md-6 col-6 second-pic">
+                        <img src="images/activities/practical-image2.png" width="100%" height="100%" alt="">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row second-row mt-3 d-flex justify-content-center" data-aos="fade-left">
-            <div class="col-md-4 first-pic">
+            <div class="col-md-4 col-6 first-pic">
                 <img src="images/activities/practical-image3.png" width="100%" height="100%" alt="">
             </div>
-            <div class="col-md-4 second-pic">
+            <div class="col-md-4 col-6 second-pic">
                 <img src="images/activities/practical-image4.png" width="100%" height="100%" alt="">
             </div>
         </div>
@@ -64,18 +66,18 @@ include 'layouts/header.php'
 <section class="student-section seminar-section">
     <div class="container">
         <div class="row first-row">
-            <div class="col-md-4 first-pic" data-aos="fade-right">
+            <div class="col-md-4 col-6 first-pic" data-aos="fade-right">
                 <img src="images/activities/seminar-image1.png" width="100%" height="100%" alt="">
             </div>
-            <div class="col-md-4 second-pic" data-aos="fade-right">
+            <div class="col-md-4 col-6 second-pic" data-aos="fade-right">
                 <img src="images/activities/seminar-image2.png" width="100%" height="100%" alt="">
             </div>
         </div>
         <div class="row second-row mt-3">
-            <div class="col-md-7 pic" data-aos="fade-right">
+            <div class="col-md-7 col-6 pic" data-aos="fade-right">
                 <img src="images/activities/seminar-image3.png" width="100%" height="100%" alt="">
             </div>
-            <div class="col-md-4 title d-flex justify-content-center align-items-center ms-5" data-aos="fade-left">
+            <div class="col-md-5 col-6 title d-flex justify-content-center align-items-center ms-5" data-aos="fade-left">
                 <?php echo renderTitle("Seminal Talks from Industrial Experts and Researchers") ?>
             </div>
         </div>
@@ -92,7 +94,7 @@ include 'layouts/header.php'
             </div>
         </div>
         <div class="row picture-row mt-3">
-            <div class="col-md-4 first-column" data-aos="fade-down">
+            <div class="col-md-4 col-6 first-column" data-aos="fade-down">
                 <div class="first-pic">
                     <img src="images/activities/event-image1.png" width="100%" height="100%" alt="">
                 </div>
@@ -100,7 +102,7 @@ include 'layouts/header.php'
                     <img src="images/activities/event-image2.png" width="100%" height="100%" alt="">
                 </div>
             </div>
-            <div class="col-md-4 second-column" data-aos="fade-up">
+            <div class="col-md-4 col-6 second-column" data-aos="fade-up">
                 <div class="first-pic">
                     <img src="images/activities/event-image3.png" width="100%" height="100%" alt="">
                 </div>
@@ -108,7 +110,7 @@ include 'layouts/header.php'
                     <img src="images/activities/event-image4.png" width="100%" height="100%" alt="">
                 </div>
             </div>
-            <div class="col-md-4 third-column" data-aos="fade-down">
+            <div class="col-md-4 col-12 third-column" data-aos="fade-down">
                 <div class="first-pic">
                     <img src="images/activities/event-image5.png" width="100%" height="100%" alt="">
                 </div>
